@@ -5,7 +5,7 @@ const MobileAppsflyer = () => {
     return (
         <div>
             <div className='w-[100%]'>
-                <div className='w-[100%] relative top-[100px]'>
+                <div className='w-[100%] pt-[20px]'>
                     <div className='flex justify-center'>
                         <Image
                             src={'/New folder/USP_1-1.svg'}
