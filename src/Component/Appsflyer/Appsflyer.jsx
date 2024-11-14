@@ -171,12 +171,12 @@ const Appsflyer = () => {
 
 
 
-                <div className='pt-[94.848px] pb-[140px]' ref={el => textRefs.current[4] = el}>
+                <div className='pt-[94.848px] pb-[150px]' ref={el => textRefs.current[4] = el}>
                     <h2 className='text-[34px] font-bold leading-[42px] text-left mb-[5px] max-w-[570px] text-[#220d4e]'>Is your budget safe from mobile ad fraud?</h2>
                     <p className='text-[18px] leading-[30.34px] mb-[20px] text-left font-normal max-w-[550px] text-[#514b5f]'>Bots and click farms aren’t going to generate revenue (for you). That’s why you need a comprehensive fraud protection solution to make sure you’re investing in the right channels, and only measuring and paying for real actions.</p>
                     <div className='flex items-center gap-x-[5px] hover:gap-x-[10px] cursor-pointer py-[10px] transition-all duration-300'>
                         <div className='arrow'>
-                            <span className='text-[16px] font-medium leading-[21px] pb-[10px] btn-arrow text-[#220d4e]'>Explore our measurement suite</span>
+                            <span className='text-[16px] font-medium leading-[21px] pb-[10px] btn-arrow text-[#220d4e]'>Explore our fruad solutions</span>
                         </div>
                         <div>
                             <Image
@@ -191,7 +191,7 @@ const Appsflyer = () => {
                 </div>
             </div>
             <div className='w-[50%]'>
-                <div className='w-[686px] h-[492.163px] fixed top-[120px] '>
+                <div className='w-[686px] h-[492.163px] sticky top-[120px]'>
                     <Swiper
                         onSwiper={(swiper) => swiperInstance.current = swiper}
                         spaceBetween={30}
