@@ -74,22 +74,22 @@ const BoxAnimation = () => {
             const timeline = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".card-container",
-                    start: "top 3% top",
+                    start: "top 9% top",
                     end: `+=${100 * cards.length}%`,
-                    scrub: 0.6, // Increase smoothness with a higher value for scrub
+                    scrub: 0.6,
                     pin: true,
-                    markers: false, // You can hide markers in production for cleaner visuals
+                    markers: false, 
                 },
             });
 
             cards.forEach((card, i) => {
                 if (i === 0) return;
 
-                // Adjusted the y position and easing for smooth animation
+                
                 timeline.fromTo(
                     card,
                     { y: `${150 + 20 * i}%` },
-                    { y: 0, duration: 0.8, ease: "power4.out" }, // Use ease for smoothness
+                    { y: 0, duration: 0.8, ease: "power4.out" }, 
                     `+=${0.4 * i}`
                 );
             });
