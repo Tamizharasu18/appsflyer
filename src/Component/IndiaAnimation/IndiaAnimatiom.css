@@ -1,0 +1,214 @@
+#shapes g {
+    cursor: pointer
+}
+
+#wheel {
+    transform-origin: 300px 300px;
+    transition: transform .4s ease-in-out;
+    -webkit-filter: drop-shadow(0 11px 5px rgba(207,200,200,.82));
+    filter: drop-shadow(0 11px 5px rgba(207,200,200,.82))
+}
+
+.wheel-container {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    width: 286px
+}
+
+.wheel-container:hover .inner-circle {
+    width: 90px;
+    height: 90px
+}
+
+.wheel-container:hover .inner-circle .rotation-arrows {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.wheel-container svg g path {
+    stroke: rgba(151,148,171,.65);
+    stroke-width: 1px
+}
+
+.wheel-container svg>g>g:hover path {
+    cursor: pointer;
+    fill: url(#hoverImg)
+}
+
+.wheel-container .active path {
+    fill: #f41451;
+    stroke: #f41451;
+    -webkit-filter: drop-shadow(0 14px 27px rgba(237,53,70,.43));
+    filter: drop-shadow(0 14px 27px rgba(237,53,70,.43))
+}
+
+.wheel-container svg>g>g.active:hover path {
+    fill: #f41451
+}
+
+.wheel-container .outer-circle {
+    width: 120px;
+    height: 120px;
+    top: 39.5%;
+    right: -75px;
+    position: absolute;
+    background: url(/images/pattern-2.png) no-repeat top;
+    box-shadow: 6.5px 10.1px 18px rgba(207,200,200,.82)
+}
+
+.wheel-container .inner-circle,.wheel-container .outer-circle {
+    border-radius: 50%;
+    border: 1px solid #bebdcd;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.wheel-container .inner-circle {
+    width: 90px;
+    height: 90px;
+    line-height: 60px;
+    text-align: center;
+    transition: all .4s;
+    position: relative;
+    background: #f2f4f9
+}
+
+@media only screen and (min-width: 1200px) {
+    .wheel-container .inner-circle {
+        width:60px;
+        height: 60px
+    }
+
+    .wheel-container .inner-circle .rotation-arrows {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        transition: all .4s
+    }
+}
+
+.wheel-container .inner-circle .rotation-arrows span {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #bebdcd;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 0
+}
+
+.wheel-container .inner-circle .rotation-arrows span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 6px;
+    height: 6px;
+    border: 1px solid #bebdcd;
+    border-right: transparent;
+    border-bottom: transparent
+}
+
+.wheel-container .inner-circle .rotation-arrows span.downBtn:after {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg)
+}
+
+.wheel-container .inner-circle .rotation-arrows span:hover,.wheel-container .inner-circle .rotation-arrows span:hover:after {
+    border-color: #f41451
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: 125px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.active .ellipsis {
+    color: #fff
+}
+
+.active#shape-1 {
+    transform: translate(250px,385px) scale(1.1)
+}
+
+.active#shape-2 {
+    transform: translate(140px,386px) scale(1.1)
+}
+
+.active#shape-3 {
+    transform: translate(64px,370px) scale(1.1)
+}
+
+.active#shape-4 {
+    transform: translate(50px,306px) scaleX(1.1)
+}
+
+.active#shape-5 {
+    transform: translate(47px,206px) scaleX(1.1)
+}
+
+.active#shape-6 {
+    transform: translate(90px,128px) scaleX(1.1)
+}
+
+.active#shape-7 {
+    transform: translate(152px,76px) scaleX(1.1)
+}
+
+.active#shape-8 {
+    transform: translate(244px,49px) scaleY(1.1)
+}
+
+.active#shape-9 {
+    transform: translate(284px,51px) scaleY(1.1)
+}
+
+.active#shape-10 {
+    transform: translate(315px,94px) scale(1.1)
+}
+
+.active#shape-11 {
+    transform: translate(360px,144px) scale(1.1)
+}
+
+.active#shape-12 {
+    transform: translate(380px,265px) scale(1.1)
+}
+
+.active#shape-13 {
+    transform: translate(385px,295px) scale(1.1)
+}
+
+.active#shape-14 {
+    transform: translate(380px,325px) scale(1.1)
+}
+
+.active#shape-15 {
+    transform: translate(370px,345px) scale(1.1)
+}
+
+.active#shape-16 {
+    transform: translate(335px,364px) scale(1.1)
+}
+ .wheel-container svg g path {
+    stroke: rgba(151, 148, 171, .65);
+    stroke-width: 1px;
+}
+  
+  
+
+  
