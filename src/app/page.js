@@ -16,8 +16,8 @@ export default function Home() {
       <Navbar />
       <div className="h-[200vh] text-black text-center">
         <h1>Data collaboration: The privacy-compliant key to understanding your audience and making data-based decisions</h1>
-      </div>
-      <BoxAnimation /> */}
+      </div> */}
+      
       {/* <IndiaAnimation /> */}
 
       <BoxCircle/>
