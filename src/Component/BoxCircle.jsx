@@ -1,7 +1,6 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import './IndiaAnimation/IndiaAnimatiom.css'
-import { useRef } from "react";
 import { gsap } from "gsap";
 
 const BoxCircle = () => {
