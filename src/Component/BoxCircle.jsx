@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffectnpm run  } from 'react'
 import './IndiaAnimation/IndiaAnimatiom.css'
 import { gsap } from "gsap";
 
