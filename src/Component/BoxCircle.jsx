@@ -5,9 +5,9 @@ import { gsap } from "gsap";
 
 const BoxCircle = () => {
 
-
+    const shapeRefs = Array.from({ length: 16 }).map(() => useRef(null));
     const svgRef = useRef();
-    const shapeRefs = Array.from({ length: 16 }, () => useRef(null)); // Create refs for 16 shapes
+     
     const [activeIndex, setActiveIndex] = useState(0); // Track the active shape index
 
     const rotateSVG = (direction) => {
