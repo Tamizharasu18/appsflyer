@@ -116,6 +116,7 @@ const BoxAnimation = () => {
                                 src="/ibizaFeatureCar3.webp"
                                 width={600}
                                 height={400}
+                                alt=""
                                 className="w-[500px] h-[500px] object-cover rounded-3xl"
                             />
                         </div>
@@ -128,6 +129,7 @@ const BoxAnimation = () => {
                                 src="/ibizaFeatureCar2.webp"
                                 width={600}
                                 height={400}
+                                alt=""
                                 className="w-[500px] h-[500px] object-cover rounded-3xl"
                             />
                         </div>
@@ -156,6 +158,7 @@ const BoxAnimation = () => {
                                 src="/ibizaFeatureCar1.webp"
                                 width={600}
                                 height={400}
+                                alt=""
                                 className="w-[500px] h-[500px] object-cover rounded-3xl"
                             />
                         </div>

@@ -29,6 +29,7 @@ const Rotate = () => {
                     src={"/ibizaFeatureCar1.webp"}
                     width={400}
                     height={400}
+                    alt=''
                     className=''
                 />
             </div>
