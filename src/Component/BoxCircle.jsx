@@ -7,7 +7,9 @@ const BoxCircle = () => {
 
 
     const svgRef = useRef();
-    const shapeRefs = Array.from({ length: 16 }, () => useRef(null)); // Create refs for 16 shapes
+    const shapeRefs = Array(16)
+        .fill()
+        .map(() => useRef(null));
     const [activeIndex, setActiveIndex] = useState(0); // Track the active shape index
 
     const rotateSVG = (direction) => {
