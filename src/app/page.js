@@ -18,9 +18,9 @@ export default function Home() {
         <h1>Data collaboration: The privacy-compliant key to understanding your audience and making data-based decisions</h1>
       </div>
       <BoxAnimation /> */}
-      <IndiaAnimation />
+      {/* <IndiaAnimation /> */}
 
-      {/* <BoxCircle/> */}
+      <BoxCircle/>
     </div>
 
   );
